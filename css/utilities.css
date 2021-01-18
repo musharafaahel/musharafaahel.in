@@ -1,0 +1,119 @@
+.flex{
+	display: flex;
+}
+
+.item-center{
+	align-items: center;
+}
+
+.justify-between{
+	justify-content: space-between;
+}
+
+.btn {
+	padding: 0.8rem 3rem;
+	font-size: 1rem;
+	font-weight: 600;
+	border: 2px solid transparent;
+	outline:none;
+	transition: all .3s ease;
+	
+}  
+
+.btn-primary{
+	background: #009494;
+	color: white;
+}
+
+.btn-primary:hover{
+	background:transparent;
+	border-color: blue;
+	color: blue;
+}
+
+
+
+.btn-secondary{
+	background: transparent;
+	color: blue;
+	border-color: blue;
+}
+
+.btn-secondary:hover{
+	background: #009494;
+	color: white;
+	border-color: #009494;
+}
+
+.flex-1{
+	flex:1;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+section.about .about-me-img{
+	height: 400px;
+	left: 200;
+}
+
+section.about .about-me-img:hover{
+	transition: .9s;
+	transform: scale(1.3);
+}
+
+section.about h1{
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+section.about h1 span{
+	color: var(--primary)
+}
+
+section.about h3{
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 400;
+}
+
+section.about p{
+	font-family: 'Lato', sans-serif;
+	color: var(--ternary);
+	line-height: 1.8;
+	padding-bottom: 1rem;
+}
+
+section.about .social{
+	display: flex;
+}
+
+section.about .social a{
+	background: var(--dark);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-right: 0.6rem;
+	transition: all .3s ease;
+}
+
+section.about .social a:hover{
+	background: var(--primary);	
+}
+
+section.about .social a img{
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem;
+}
+
+
